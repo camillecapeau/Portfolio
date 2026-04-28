@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camille Capeau | Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">CC.</div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact" class="btn-contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="accueil" class="hero">
+        <div class="hero-image">
+            <img src="camille.jpg" alt="Camille Capeau">
+        </div>
+        <div class="hero-content">
+            <span class="badge">Portfolio 2026</span>
+            <h1>Camille Capeau</h1>
+            <h2><span style="color: var(--rose-main);">Communication & Marketing </span></h2>
+
+            <p>Actuellement en BUT Métiers du Multimédia et de l’Internet, je recherche un stage de 4 semaines, du 1er au 26 juin 2026, pour mettre ma polyvalence technique et stratégique au service de vos projets.</p>
+            <div class="hero-btns">
+                <a href="#projets" class="btn-main">Mes projets</a>
+                <a href="#a-propos" class="btn-sec">Mes compétences</a>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="a-propos" class="about">
+        <div class="container">
+            <h2 class="section-title">Mes compétences</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-card">
+                    <div class="icon">📱</div>
+                    <h3>Réseaux sociaux</h3>
+                    <p>Instagram, TikTok, Facebook, LinkedIn</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="icon">🎨</div>
+                    <h3>Création</h3>
+                    <p>Photoshop, Illustrator, Canva, InDesign</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="icon">🎬</div>
+                    <h3>Audiovisuel</h3>
+                    <p>Première Pro, Capcut</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="icon">💻</div>
+                    <h3>Web</h3>
+                    <p>Html, Css, Php, Figma, Wordpress</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+            
+            <div class="filters">
+            
+                <button class="filter-btn" data-filter="design">Design & Print</button>
+                <button class="filter-btn" data-filter="video">Vidéos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+
+            <div class="gallery">
+
+                <div class="project-card video">
+    <a href="https://youtu.be/ESsx-tf-XLU" target="_blank" class="card-image video-link" style="background-image: url('miniature-cv-video.jpg');">
+        <i class="fas fa-play-circle" style="font-size: 60px; color: white; text-shadow: 0 0 10px rgba(0,0,0,0.5);"></i>
+    </a>
+    <div class="card-info">
+        <span class="cat">Vidéo</span>
+        <h3>CV Vidéo</h3>
+        <p>Présentation de mon profil.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Réalisation d'un CV vidéo dynamique pour mettre en avant ma créativité, mes compétences techniques et ma personnalité. Un format court conçu pour capter l'attention des recruteurs dès les premières secondes.</p>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="https://youtu.be/TON_LIEN_ICI" target="_blank" class="btn-see">CV Vidéo</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card design">
+    <div class="card-image" style="background-image: url('miniature-youtube.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Stage CHU • Social média</span>
+        <h3>Miniatures</h3>
+        <p>Visuels pour YouTube.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> La conception repose sur deux approches visuelles :</p>
+            <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+                <li><strong>Approche Humaine :</strong> Mise en avant des visages et du personnel.</li>
+                <li><strong>Approche Graphique :</strong> Utilisation de codes dynamiques et modernes.</li>
+            </ul>
+        </div>
+        
+        <div style="margin-top: 15px; display: flex; gap: 5px; flex-wrap: wrap;">
+            <a href="miniature-chu-1.jpg" class="lightbox-trigger btn-see">Miniature 1</a>
+            <a href="miniature-chu-2.jpg" class="lightbox-trigger btn-see">Miniature 2</a>
+        </div>
+    </div>
+</div>
+                <div class="project-card video">
+    <div class="card-image" style="background-image: url('miniature-scripts.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Stage CHU • Conception / Rédaction</span>
+        <h3>Scénarisation vidéo</h3>
+        <p>Scripts voix-off pour TikTok.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Rédaction de scripts de prévention santé axés sur le <em>storytelling</em> : création d'accroches percutantes et vulgarisation de sujets complexes pour un format court et dynamique.</p>
+        </div>
+
+        <div style="margin-top: 10px; display: flex; gap: 5px; flex-wrap: wrap;">
+            <a href="script1.pdf" class="lightbox-trigger btn-see">Script 1</a>
+            <a href="script2.pdf" class="lightbox-trigger btn-see">Script 2</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card design">
+    <div class="card-image" style="background-image: url('miniature-articles.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Stage CHU • Rédaction Web & interne</span>
+        <h3>Communiqués de presse</h3>
+        <p>Campagnes de santé et vie de l'hôpital.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Rédaction d’une série de communiqués de presse pour le CHU de Montpellier :</p>
+            <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+                <li><strong>Montpellier Reine :</strong> Valorisation d'événements solidaires.</li>
+                 <li><strong>Mai Violet :</strong> Sensibilisation sur les maladies invisibles.</li>
+                <li><strong>Ludothèque :</strong> Mobilisation pour la rénovation d'espaces de vie.</li>
+        
+            </ul>
+        </div>
+        
+        <div style="margin-top: 15px; display: flex; gap: 5px; flex-wrap: wrap;">
+            <a href="article-don-organes.pdf" class="btn-see">Don d'Organes</a>
+            <a href="article-mai-violet.pdf" class="btn-see">Mai Violet</a>
+            <a href="article-reno.pdf" class="btn-see">Rénovation Ludo</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card design">
+    <div class="card-image" style="background-image: url('miniaturelogo-spes.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Stage CHU • Identité Visuelle</span>
+        <h3>Logo</h3>
+        <p>Logotype du pôle SPES.</p>
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Une identité riche et protectrice, conçue pour fusionner les trois missions du service :</p>
+            <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+                <li> <strong>Feuille :</strong> L'écologie de la santé.</li>
+                <li> <strong>Bouclier :</strong> La protection et la prévention.</li>
+                <li> <strong>Cœur :</strong> L'humain et la promotion de la santé.</li>
+            </ul>
+        </div>
+        <a href="logo-spes.jpg" class="btn-see">Logo</a>
+    </div>
+</div>
+                <div class="project-card design">
+    <div class="card-image" style="background-image: url('miniature-affiche-chu.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Stage CHU • Print</span>
+        <h3>Affiche</h3>
+        <p>Affiche sur les droits d'accès des patients.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Affiche conçue pour informer les patients sur leurs droits d'accès au dossier médical. L'enjeu principal était de hiérarchiser les informations essentielles pour une lecture rapide et accessible.</p>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="affiche-chu.jpg" class="lightbox-trigger btn-see">Affiche</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card video">
+    <a href="https://youtu.be/lBfHSqYvOq8" target="_blank" class="card-image video-link" style="background-image: url('miniature-interview.jpg');">
+        <i class="fas fa-play-circle" style="font-size: 60px; color: white; text-shadow: 0 0 10px rgba(0,0,0,0.5);"></i>
+    </a>
+    <div class="card-info">
+        <span class="cat">Vidéo</span>
+        <h3>Interview</h3>
+        <p>Le métier de chargé de communication.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Réalisation d'une interview d'un chargé de communication en alternance au Club de Rugby Nîmois, afin de mettre en lumière les missions concrètes du métier en entreprise.</p>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="https://youtu.be/lBfHSqYvOq8" target="_blank" class="btn-see">Interview</a>
+        </div>
+    </div>
+</div>
+<div class="project-card design">
+    <div class="card-image" style="background-image: url('miniature-guide-6e.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Design • Print</span>
+        <h3>Guide des 6e</h3>
+        <p>Livret d'accueil pour la rentrée au collège.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Création d’un document attractif et structuré en utilisant des illustrations colorées et une mise en page aérée. Ce guide rassure les futurs élèves tout en valorisant l'image moderne de l'établissement.</p>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <a href="guide_camille_capeau_tp2.pdf" class="lightbox-trigger btn-see">Guide</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card video">
+    <a href="https://youtu.be/6nhFa4eR6Kk" target="_blank" class="card-image video-link" style="background-image: url('miniature-apero-box.jpg');">
+        <i class="fas fa-play-circle" style="font-size: 60px; color: white; text-shadow: 0 0 10px rgba(0,0,0,0.5);"></i>
+    </a>
+    
+    <div class="card-info">
+        <span class="cat">Vidéo • Stratégie Marketing</span>
+        <h3>Apéro Fit Box</h3>
+        <p>Campagne digitale pour concilier sport et alimentation saine.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Ce projet a nécessité une stratégie complète : étude de rentabilité (150 abonnés), gestion logistique des produits périssables et lancement via une campagne de crowdfunding.</p>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <a href="https://youtu.be/6nhFa4eR6Kk" target="_blank" class="btn-see">Court métrage</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card design">
+    <div class="card-image" style="background-image: url('miniature-volets.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Stage CHU • Design</span>
+        <h3>Habillages de conférence</h3>
+        <p>Visuels de couverture et d'introduction pour les conférences YouTube.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Création des visuels d'introduction pour les conférences filmées.</p>
+        </div>
+
+        <div style="margin-top: 15px; display: flex; gap: 5px; flex-wrap: wrap;">
+            <a href="volet1.jpg" class="lightbox-trigger btn-see">Événements stressants</a>
+            <a href="volet2.jpg" class="lightbox-trigger btn-see">Alimentation émotionnelle</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card design">
+    <div class="card-image" style="background-image: url('miniature-vintage.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Design</span>
+        <h3>Affiche</h3>
+        <p>Travail sur la typographie et les textures pour une illustration au style vintage.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Travail explorant le graphisme créatif où le mélange des formes et des lignes crée un rythme visuel dynamique pour un rendu vintage.</p>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="affiche-vintage.jpg" class="lightbox-trigger btn-see">Illustration</a>
+        </div>
+    </div>
+</div>
+        
+                <div class="project-card design">
+    <div class="card-image" style="background-image: url('miniature-sensibilisation.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Design</span>
+        <h3>Affiche de sensibilisation</h3>
+        <p>Respect, entraide et valeurs humaines.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Conception d'une affiche graphique visant à valoriser la cohésion d'équipe plutôt que la compétition.</p>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="mario.jpg" class="lightbox-trigger btn-see">Affiche</a>
+        </div>
+    </div>
+</div>
+                <div class="project-card web">
+    <div class="card-image" style="background-image: url('miniature-pokedex.jpg'); background-size: contain !important; background-color: #f8f8f8;"></div>
+    <div class="card-info">
+        <span class="cat">Développement web</span>
+        <h3>Pokédex</h3>
+        <p>Site de Pokémon.</p>
+
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Projet visant à produire efficacement un grand nombre de pages web valides et accessibles. L'objectif était d'automatiser l'intégration pour générer une bibliothèque complète de Pokémon, incluant des systèmes de filtrage par type et une navigation structurée par fiche individuelle.</p>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <a href="pokedex-demo/index.html" target="_blank" class="btn-see">Site</a>
+        </div>
+    </div>
+</div>
+
+                <div class="project-card web">
+    <div class="card-image" style="background-image: url('miniature-films.jpg');"></div>
+    <div class="card-info">
+        <span class="cat">Développement Web • Projet Full-stack</span>
+        <h3>Catalogue de films</h3>
+        <p>Site dynamique type "AlloCiné" avec gestion de base de données.</p>
+        
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; font-size: 0.85rem; color: #666; font-style: italic;">
+            <p><strong>Détails :</strong> Réalisation d'une plateforme web permettant la gestion interactive d'une bibliothèque cinématographique. Le projet intègre :</p>
+            <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+                <li><strong>Catalogue :</strong> Filtrage dynamique par genre, nouveautés et notes.</li>
+                <li><strong>Interaction :</strong> Système de notation et espace de commentaires.</li>
+                <li><strong>Administration :</strong> Formulaires complets pour ajouter des films et créer de nouveaux genres.</li>
+            </ul>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <a href="https://a-pedagoarles-mmi.aix.univ-amu.fr/d25028323/sae203/index.php" target="_blank" class="btn-see">Site</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Me contacter</h2>
+            <p>camille.capeau@gmail.com</p>
+            <p>07.61.86.27.44</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/camille-capeau-94b06a291/" target="_blank">LinkedIn</a>
+            </div>
+            <p class="copyright">© 2026 Camille Capeau</p>
+        </div>
+    </footer>
+
+    <div id="lightbox-overlay">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-image" src="" alt="Agrandissement">
+        <iframe id="lightbox-iframe" src="" frameborder="0"></iframe>
+    </div>
+
+    
+    <script src="script.js"></script>
+
+    <script>
+        const modalLogo = document.getElementById('modal-logo');
+        const btnTrigger = document.getElementById('trigger-logo-spes');
+        const spanClose = document.getElementsByClassName("close-custom-modal")[0];
+
+        if(btnTrigger){
+            btnTrigger.addEventListener('click', function(e) {
+                e.preventDefault();
+                modalLogo.style.display = "flex";
+            });
+        }
+        if(spanClose){
+            spanClose.addEventListener('click', function() {
+                modalLogo.style.display = "none";
+            });
+        }
+        window.addEventListener('click', function(event) {
+            if (event.target == modalLogo) {
+                modalLogo.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

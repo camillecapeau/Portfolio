@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="include/css/style.css">
+	<title>SAÉ 105</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="include/img/logo.png" alt="Logo">
+        </a>
+        <ul class="menu-principal">
+            <li><a href="index.html">ACCUEIL</a></li>
+        </ul>
+        <div class="menu-deroulant">TYPES
+            <ul id="liste-types"></ul>
+        </div>
+    </nav>
+</header>
+    <main>
+    <div class="fiche-detail">
+        <h1></h1>
+         <div id="image">
+        <img src="" height="100" alt="Image du Pokémon">
+        </div>
+        <section id="informations">
+        <p id="description"></p>
+        <ul class="evolution-box">
+        <li id="noms"></li>
+        <li id="taille"></li>
+        <li id="poids"></li>
+        <li id="types"></li>
+        <li id="evolutions"></li>
+        </ul>
+        </section>
+     </div>
+    <div class="retour-pokedex">
+    <a href="index.html">← Retour au Pokédex</a>
+</div>
+    </main>
+    <footer>
+        <p>2026 - SAÉ Pokédex</p>
+        <form>
+            <label for="email">Newsletter :</label>
+<input type="email" id="email" placeholder="Votre email">
+            <input type="submit" value="Ok">
+        </form>
+    </footer>
+    <script src="include/js/data.js" defer></script>
+    <script src="include/js/pokemon.js" defer></script>
+</body>
+</html>

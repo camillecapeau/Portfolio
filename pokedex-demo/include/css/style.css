@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 100px;
+    background-image: url("../img/arriere-plan.png"); 
+    background-size: cover;                        
+    background-attachment: fixed;                
+    background-color: #ccc; 
+    color: black;
+    line-height: normal;
+    overflow-y: scroll;
+    display: flex;          
+    flex-direction: column;
+    min-height: 100vh; 
+}
+header {
+    background-color: white; 
+    height: 80px;
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;   
+}
+a.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+a.logo img {
+    height: 60px;
+    width: auto;
+}
+.menu-principal {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    line-height: 80px; 
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.menu-principal li {
+    display: inline;
+    margin: 15px;
+}
+.menu-principal a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu-deroulant {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    line-height: 80px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;              
+}
+.menu-deroulant::after {
+    content: " ▼";
+}
+#liste-types {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    border: 1px solid black;
+    list-style: none;
+    padding: 0;
+    width: 150px;
+    max-height: 300px;
+    overflow-y: auto;  
+}
+.menu-deroulant:hover #liste-types {
+    display: block;
+}
+#liste-types li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+#liste-types li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+#liste-types li:hover {
+    background-color: #f0f0f0;
+}
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+#search-bar {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#liste-pokemon {
+    text-align: center;
+    padding: 20px;
+}
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background: white; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.card img {
+    width: 120px;
+    height: 120px;
+}
+.card a {
+    text-decoration: none;
+    color: #2a75bb;
+    font-weight: bold;
+}
+.card:hover {
+    background-color: #f0f0f0;
+}   
+.fiche-detail {
+    width: 400px;
+    margin: 40px auto; 
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white; 
+}
+#image, #description {
+    background-color: #f4f6f8;
+    border: 1px solid white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+#description {
+    border-top: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.evolution-box {
+    list-style: none;
+    padding: 0;
+}
+.retour-pokedex {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.retour-pokedex a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.type-badge {
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.type-badge.Plante { background: #78C850; }
+.type-badge.Poison { background: #A040A0; }
+.type-badge.Feu { background: #F08030; }
+.type-badge.Eau { background: #6890F0; }
+.type-badge.Insecte { background: #A8B820; }
+.type-badge.Normal { background: #A8A878; }
+.type-badge.Électrik { background: #F8D030; }
+.type-badge.Sol { background: #E0C068; }
+.type-badge.Fée { background: #EE99AC; }
+.type-badge.Combat { background: #C03028; }
+.type-badge.Psy { background: #F85888; }
+.type-badge.Roche { background: #B8A038; }
+.type-badge.Spectre { background: #705898; }
+.type-badge.Glace { background: #98D8D8; }
+.type-badge.Dragon { background: #7038F8; }
+.type-badge.Vol { background: #A890F0; }
+.type-badge.Acier { background: #B8B8D0; }
+footer {       
+    margin-top: auto;      
+    width: 100%;     
+    background-color: white; 
+    text-align: center;
+    padding: 15px;  
+}

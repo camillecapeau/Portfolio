@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="include/css/style.css">
+	<title>SAÉ 105</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="include/img/logo.png" alt="Logo">
+        </a>
+        <ul class="menu-principal">
+            <li><a href="index.html">ACCUEIL</a></li>
+        </ul>
+        <div class="menu-deroulant">TYPES
+        <ul id="liste-types"></ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <h1 id="titre-page">Type sélectionné</h1>
+    <ul id="liste-pokemon"></ul>
+</main>
+    <footer>
+        <p>2026 - SAÉ Pokédex</p>
+        <form>
+            <label for="email">Newsletter :</label>
+<input type="email" id="email" placeholder="Votre email">
+            <input type="submit" value="Ok">
+        </form>
+    </footer>
+    <script src="include/js/data.js" defer></script>
+    <script src="include/js/type.js" defer></script>
+</body>
+</html>
